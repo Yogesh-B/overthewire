@@ -7,3 +7,5 @@ Notes:
  - there is a `readme` file in the home folder, it has got the password.
 ## lvl1-2
  - `cat ./-` has got password for lvl2
+## lvl2-3
+ - `cat ./spaces\ in\ this\ filename` has got password for lvl3
