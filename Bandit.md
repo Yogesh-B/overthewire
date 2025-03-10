@@ -9,3 +9,17 @@ Notes:
  - `cat ./-` has got password for lvl2
 ## lvl2-3
  - `cat ./spaces\ in\ this\ filename` has got password for lvl3
+## lvl3-4
+ - `cd inhere`
+ - `cat ./...Hiding-From-You`
+## lvl4-5
+ - `cd inhere`
+ - `file ./*`   //this command gives info about all files, what they content. “Human readable” means PLAIN TEXT :)
+## lvl5-6
+ - `cd inhere`
+ - `find ./ -perm 640 -ls | grep 1033` (the one with 1033 size)
+ - another solution : `find -iname '*file*' -size 1033c -exec ls -l  {} +;`
+## lvl6-7
+ - 
+
+
