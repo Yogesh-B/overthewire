@@ -19,7 +19,10 @@ Notes:
  - `cd inhere`
  - `find ./ -perm 640 -ls | grep 1033` (the one with 1033 size)
  - another solution : `find -iname '*file*' -size 1033c -exec ls -l  {} +;`
-## lvl6-7
- - 
+## lvl6-7 
+ - `cd /`
+ - `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null` //`2>/dev/null` is for hiding the errors.
+## lvl7-8
+
 
 
