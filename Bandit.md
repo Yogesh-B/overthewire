@@ -32,4 +32,11 @@ Notes:
 ## lvl10-11
  - `base64 -d data.txt`
 ## lvl11-12
- - 
+ - `cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M'` //some rot13 using `tr` command.
+## lvl12-13
+ - `xxd -r hexdump_file_name` //this is first step and wont repeat
+ - `file file_name` //use this again and again to check which compression is used
+ - //below uncompression commands are to be used as per compression format we found in inner file
+	- `tar -x -f file_name`
+	- `gunzip file_name.gz` //note the extension is a must
+	- `bzip2 -d file_name`
