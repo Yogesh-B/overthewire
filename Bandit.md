@@ -44,3 +44,9 @@ Notes:
  - there is a private key for for next level, use that to login next level.
  - feel free to use `-v` flag to analyze why key is not working, if so.
  - you might need to add key to ssh-agent
+## lvl14-15
+ - `nc localhost 30000`  //then enter the password located at /etc/bandit_pass/bandit14
+## lvl15-16
+ - `openssl s_connect -connect localhost:30001` //ofcourse, then give the current password
+## lvl16-17
+- 
