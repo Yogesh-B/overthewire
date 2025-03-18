@@ -25,5 +25,5 @@ Notes:
 ## lvl7-8
  - `grep millionth data.txt` //use `info`(installed via `textinfo`) or `man` for learning about grep
 ## lvl8-9
-
+ - `sort data.txt | uniq -uc`
 
