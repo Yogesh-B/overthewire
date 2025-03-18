@@ -26,4 +26,10 @@ Notes:
  - `grep millionth data.txt` //use `info`(installed via `textinfo`) or `man` for learning about grep
 ## lvl8-9
  - `sort data.txt | uniq -uc`
-
+## lvl9-10
+ - `strings data.txt | grep ^\=`
+ - another solution `grep -a '===' data.txt`
+## lvl10-11
+ - `base64 -d data.txt`
+## lvl11-12
+ - 
