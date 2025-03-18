@@ -23,6 +23,7 @@ Notes:
  - `cd /`
  - `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null` //`2>/dev/null` is for hiding the errors.
 ## lvl7-8
-
+ - `grep millionth data.txt` //use `info`(installed via `textinfo`) or `man` for learning about grep
+## lvl8-9
 
 
