@@ -49,4 +49,10 @@ Notes:
 ## lvl15-16
  - `openssl s_connect -connect localhost:30001` //ofcourse, then give the current password
 ## lvl16-17
-- 
+ - `nmap -p31000-32000 localhost` //to find out which ports are open
+ - `openssl s_client -connect localhost:<port> -nocommands` //`nocommands` is mandatory because otherwise it understands password characters as command
+ - when there is `read R BLOCK` then enter the current password
+ - If you get some private key, then you know how to deal//lvl14
+## lvl17-18
+ - 
+
