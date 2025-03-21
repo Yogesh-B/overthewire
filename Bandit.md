@@ -41,9 +41,9 @@ Notes:
 	- `gunzip file_name.gz` //note the extension is a must
 	- `bzip2 -d file_name`
 ## lvl13-14
- - there is a private key for for next level, use that to login next level.
+ - there is a private key for for next level, use that(ssh `-i` flag) to login next level.
  - feel free to use `-v` flag to analyze why key is not working, if so.
- - you might need to add key to ssh-agent
+ - you might need to add key to ssh-agent// if not adding to agent, use `-o IdentitiesOnly=yes`
 ## lvl14-15
  - `nc localhost 30000`  //then enter the password located at /etc/bandit_pass/bandit14
 ## lvl15-16
@@ -52,7 +52,15 @@ Notes:
  - `nmap -p31000-32000 localhost` //to find out which ports are open
  - `openssl s_client -connect localhost:<port> -nocommands` //`nocommands` is mandatory because otherwise it understands password characters as command
  - when there is `read R BLOCK` then enter the current password
- - If you get some private key, then you know how to deal//lvl14
+ - If you get some private key, then you know how to deal//lvl13-14
 ## lvl17-18
+ - `diff passwords.new passwords.old`
+## lvl18-19
+ - You need to see some ‘arguments’ in ‘ssh’ command, that ‘directly’ runs a ‘command’ on ssh server.
+## lvl19-20
+ - `cat /etc/passwd | grep bandit19` //also do for `bandit20`
+ - `./bandit20-do id` // running without arguments gives this help info, run it this way
+ - Also play around some `id` `whoami` and `ls` commands to find out information about permissions. Try `whoami` vs `./bandit20-do whoami`
+## lvl20-21
  - 
 
