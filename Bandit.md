@@ -61,6 +61,7 @@ Notes:
  - `cat /etc/passwd | grep bandit19` //also do for `bandit20`
  - `./bandit20-do id` // running without arguments gives this help info, run it this way
  - Also play around some `id` `whoami` and `ls` commands to find out information about permissions. Try `whoami` vs `./bandit20-do whoami`
+ - banditX’s password is at `/etc/bandit_pass/banditX`
 ## lvl20-21
  - 
 
