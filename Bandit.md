@@ -63,5 +63,10 @@ Notes:
  - Also play around some `id` `whoami` and `ls` commands to find out information about permissions. Try `whoami` vs `./bandit20-do whoami`
  - banditX’s password is at `/etc/bandit_pass/banditX`
 ## lvl20-21
- - 
+ - Use `tmux` to split window into to 2.
+ - `echo "__level 20 password__" | nc -l localhost 29000` // start the server that returns a message
+ - Then from second `pane` within `tmux`, use the `./suconnect` binary with port `29000`(or whatever your server is listening to)
+ - Next level password will show in tmux pane where server was listening.
+## lvl21-22
+
 
