@@ -68,5 +68,9 @@ Notes:
  - Then from second `pane` within `tmux`, use the `./suconnect` binary with port `29000`(or whatever your server is listening to)
  - Next level password will show in tmux pane where server was listening.
 ## lvl21-22
+ - `cat /etc/cron.d/cronjob_bandit22` //check the cronjob
+ - `cat /usr/bin/cronjob_bandit22.sh` //check what it is doing
+ - Than again `cat` the file where it is storing the password
+## lvl22-23
 
 
